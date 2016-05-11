@@ -2,9 +2,9 @@
 
 ###GameMaker RPG(MMORPG)
 ~~~~
-N2  -  Atanas Chompolov
-N5  -  Borislav Mihaylov
-N19 -  Martin Angelov
+No2  -  Atanas Chompolov
+No5  -  Borislav Mihaylov
+No19 -  Martin Angelov
 ~~~~
 
 Github repository for RPG game.
