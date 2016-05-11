@@ -89,6 +89,10 @@
     <sprites name="NPC">
       <sprite>sprites\sprNpc_Redhead_Man</sprite>
     </sprites>
+    <sprites name="GUI">
+      <sprite>sprites\sprGUI_Bar</sprite>
+      <sprite>sprites\sprXP</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgGrass</background>

@@ -55,6 +55,10 @@ maxStamina = stamina;
 //Set font
 draw_set_font(fontFuture_Thin);
 
+//Set GUI
+xBar = 0;
+xBarMax = 117;
+
 
 /*
     //Initialize client
@@ -215,11 +219,25 @@ buffer_delete(buffer);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Draw GUI
-draw_text(16,16,"LV: "+string(level));
-draw_text(16,32,"XP: "+string(xp)+"/"+string(maxXp));
-draw_text(16,48,"HP: "+string(hp));
-//draw_text(16,64,"SM: "+string(stamina)+"/"+string(maxStamina));
+            <string>///Draw GUI
+
+//Level GUI
+draw_text(16,16,"Level: "+string(level));
+
+//xpGUI
+draw_sprite(sprGUI_Bar,image_index,16,40);//Bar
+for(xBar = 17; xp &lt; maxXp; xBar++) {
+    draw_sprite(sprXP,image_index,xBar,41);
+}
+//draw_text(16,32,"XP: "+string(xp)+"/"+string(maxXp));//Text
+
+//Health GUI
+draw_sprite(sprGUI_Bar,image_index,16,62);//Bar
+//draw_text(16,48,"HP: "+string(hp));//Text
+
+//Stamina GUI
+draw_sprite(sprGUI_Bar,image_index,16,84);//Bar
+//draw_text(16,64,"SM: "+string(stamina)+"/"+string(maxStamina));//Text
 
 </string>
           </argument>
