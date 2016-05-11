@@ -1,6 +1,7 @@
 GameMaker RPG 
-
+~~~~~~~~~~~~~~~~~~~~~
 TUES Project
-Atanas Chompolov
-Martin Angelov
-Borislav Mihaylov
+
+N2  -  Atanas Chompolov
+N5  -  Borislav Mihaylov
+N19 -  Martin Angelov
